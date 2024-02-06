@@ -9,7 +9,7 @@ public class JobPost {
     private String profile;
     private String desc;
     private int exp;
-    private String techStack[];
+    private String techstack[];
 
     public String getProfile() {
         return profile;
@@ -36,11 +36,11 @@ public class JobPost {
     }
 
     public String[] getTechStack() {
-        return techStack;
+        return techstack;
     }
 
     public void setTechStack(String[] techStack) {
-        this.techStack = techStack;
+        this.techstack = techstack;
     }
 
     public JobPost() {
@@ -52,7 +52,7 @@ public class JobPost {
                 "profile='" + profile + '\'' +
                 ", desc='" + desc + '\'' +
                 ", exp=" + exp +
-                ", techStack=" + Arrays.toString(techStack) +
+                ", techStack=" + Arrays.toString(techstack) +
                 '}';
     }
 }
